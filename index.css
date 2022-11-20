@@ -1,0 +1,169 @@
+body {
+  background-color: #20364b;
+}
+.first-line,
+.second-line {
+  font-weight: 900;
+  margin: 0;
+  line-height: 45px;
+}
+.first-line {
+  color: #fdc11f;
+}
+.second-line {
+  color: #fff;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 125%;
+}
+.input {
+  width: 62%;
+}
+.input,
+.btn {
+  padding: 10px 10px 10px 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.fa-search {
+  width: 15px;
+}
+.inner-circle {
+  background-color: #fdc11f;
+  padding: 11px 13px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 0 0 0 15px rgb(253 193 31 / 30%);
+}
+.btn {
+  background-color: #fdc11f;
+  color: #20364b;
+  width: 20%;
+  padding-left: 20px;
+}
+.content {
+  display: flex;
+  align-items: center;
+}
+.website {
+  padding: 50px 45px 0 65px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.logo {
+  width: 145px;
+  height: 35px;
+}
+.select {
+  margin-right: 54px;
+  background-color: #20364b;
+  border: #20364b;
+}
+p {
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Poppins";
+  width: 80%;
+}
+.link,
+select {
+  margin-right: 54px;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  text-align: center;
+  text-decoration: none;
+}
+.active {
+  padding-bottom: 12px;
+  border-bottom: 2px solid #fdc11f;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  color: #fdc11f;
+}
+.images-container {
+  position: relative;
+}
+.rocket,
+.chat,
+.target {
+  position: absolute;
+  z-index: 2;
+}
+.rocket {
+  left: 70px;
+  top: 40px;
+}
+.target {
+  bottom: -40px;
+}
+.chat {
+  bottom: -25px;
+  left: -25px;
+}
+img {
+  width: 80%;
+}
+.main-image {
+  -webkit-clip-path: polygon(
+    71% -29%,
+    48% 12%,
+    47% 15%,
+    47% 15%,
+    35% 35%,
+    33% 45%,
+    12% 66%,
+    10% 85%,
+    39% 95%,
+    61% 95%,
+    81% 95%,
+    90% 73%,
+    91% 54%,
+    86% 17%
+  );
+  clip-path: polygon(
+    71% -29%,
+    48% 12%,
+    47% 15%,
+    47% 15%,
+    35% 35%,
+    33% 45%,
+    12% 66%,
+    10% 85%,
+    39% 95%,
+    61% 95%,
+    81% 95%,
+    90% 73%,
+    91% 54%,
+    86% 17%
+  );
+}
+.ellipse {
+  background-color: #fdc11f;
+  position: absolute;
+  transform: rotate(105deg);
+  top: 90px;
+  right: 80px;
+  height: 160px;
+  width: 320px;
+  border-radius: 50%;
+}
+.outline {
+  position: absolute;
+  transform: rotate(12deg);
+  height: 170px;
+  width: 430px;
+  left: 70px;
+  top: 147px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
